@@ -99,12 +99,40 @@
  "tileheight":32,
  "tilesets":[
         {
+         "columns":3,
          "firstgid":1,
-         "source":"Sand and Water.tsx"
+         "image":"sandwater.png",
+         "imageheight":192,
+         "imagewidth":96,
+         "margin":0,
+         "name":"Sand and Water",
+         "spacing":0,
+         "tilecount":18,
+         "tileheight":32,
+         "tilewidth":32
         }, 
         {
+         "columns":10,
          "firstgid":19,
-         "source":"Yello Things.tsx"
+         "image":"yellow-map.png",
+         "imageheight":640,
+         "imagewidth":320,
+         "margin":0,
+         "name":"Yello Things",
+         "spacing":0,
+         "tilecount":200,
+         "tileheight":32,
+         "tiles":[
+                {
+                 "id":67,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }],
+         "tilewidth":32
         }],
  "tilewidth":32,
  "type":"map",
